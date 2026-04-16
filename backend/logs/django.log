@@ -1,0 +1,141 @@
+[2026-04-15 08:25:43] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2026-04-15 08:26:36] INFO django.server "OPTIONS /api/v1/auth/login/ HTTP/1.1" 200 0
+[2026-04-15 08:27:28] INFO django.server "OPTIONS /api/v1/auth/register/ HTTP/1.1" 200 0
+[2026-04-15 08:31:27] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2026-04-15 08:31:41] INFO django.server "OPTIONS /api/v1/auth/login/ HTTP/1.1" 200 0
+[2026-04-15 08:32:02] INFO django.server "OPTIONS /api/v1/auth/login/ HTTP/1.1" 200 0
+[2026-04-15 08:32:39] INFO django.server "OPTIONS /api/v1/auth/register/ HTTP/1.1" 200 0
+[2026-04-15 08:32:48] INFO django.server "OPTIONS /api/v1/auth/register/ HTTP/1.1" 200 0
+[2026-04-15 08:32:54] INFO django.server "OPTIONS /api/v1/auth/register/ HTTP/1.1" 200 0
+[2026-04-15 08:33:48] INFO django.server "OPTIONS /api/v1/auth/login/ HTTP/1.1" 200 0
+[2026-04-15 08:34:39] INFO django.utils.autoreload C:\Users\ayush\OneDrive\Desktop\New folder (2)\anythingai\Task\backend\config\settings.py changed, reloading.
+[2026-04-15 08:34:40] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2026-04-15 08:35:06] INFO django.utils.autoreload C:\Users\ayush\OneDrive\Desktop\New folder (2)\anythingai\Task\backend\config\settings.py changed, reloading.
+[2026-04-15 08:35:07] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2026-04-15 08:35:38] INFO django.server "OPTIONS /api/v1/auth/login/ HTTP/1.1" 200 0
+[2026-04-15 08:35:39] WARNING django.request Unauthorized: /api/v1/auth/login/
+[2026-04-15 08:35:39] WARNING django.server "POST /api/v1/auth/login/ HTTP/1.1" 401 92
+[2026-04-15 08:36:06] INFO django.server "OPTIONS /api/v1/auth/register/ HTTP/1.1" 200 0
+[2026-04-15 08:36:06] WARNING django.request Bad Request: /api/v1/auth/register/
+[2026-04-15 08:36:06] WARNING django.server "POST /api/v1/auth/register/ HTTP/1.1" 400 140
+[2026-04-15 08:36:18] INFO accounts.serializers New user registered: ayush (id=2)
+[2026-04-15 08:36:18] INFO django.server "POST /api/v1/auth/register/ HTTP/1.1" 201 245
+[2026-04-15 08:36:19] INFO accounts.serializers User logged in: ayush
+[2026-04-15 08:36:19] INFO django.server "POST /api/v1/auth/login/ HTTP/1.1" 200 815
+[2026-04-15 08:36:19] INFO django.server "OPTIONS /api/v1/tasks/stats/ HTTP/1.1" 200 0
+[2026-04-15 08:36:19] INFO django.server "OPTIONS /api/v1/tasks/ HTTP/1.1" 200 0
+[2026-04-15 08:36:19] INFO django.server "OPTIONS /api/v1/tasks/ HTTP/1.1" 200 0
+[2026-04-15 08:36:19] INFO django.server "OPTIONS /api/v1/tasks/stats/ HTTP/1.1" 200 0
+[2026-04-15 08:36:19] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 75
+[2026-04-15 08:36:19] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:36:19] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 75
+[2026-04-15 08:36:19] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:36:19] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 75
+[2026-04-15 08:38:18] INFO tasks.views Task created: 'Meeting at 10' by ayush
+[2026-04-15 08:38:18] INFO django.server "POST /api/v1/tasks/ HTTP/1.1" 201 361
+[2026-04-15 08:38:18] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:38:24] INFO django.server "OPTIONS /api/v1/auth/logout/ HTTP/1.1" 200 0
+[2026-04-15 08:38:24] INFO accounts.views User logged out: ayush
+[2026-04-15 08:38:24] INFO django.server "POST /api/v1/auth/logout/ HTTP/1.1" 200 65
+[2026-04-15 08:38:29] INFO accounts.serializers User logged in: admin
+[2026-04-15 08:38:29] INFO django.server "POST /api/v1/auth/login/ HTTP/1.1" 200 834
+[2026-04-15 08:38:29] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 285
+[2026-04-15 08:38:29] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 285
+[2026-04-15 08:38:29] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:38:29] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:38:29] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 285
+[2026-04-15 08:39:02] INFO accounts.views User logged out: admin
+[2026-04-15 08:39:02] INFO django.server "POST /api/v1/auth/logout/ HTTP/1.1" 200 65
+[2026-04-15 08:39:10] WARNING django.request Unauthorized: /api/v1/auth/login/
+[2026-04-15 08:39:10] WARNING django.server "POST /api/v1/auth/login/ HTTP/1.1" 401 92
+[2026-04-15 08:39:47] INFO accounts.serializers New user registered: harsh (id=3)
+[2026-04-15 08:39:47] INFO django.server "POST /api/v1/auth/register/ HTTP/1.1" 201 247
+[2026-04-15 08:39:48] INFO accounts.serializers User logged in: harsh
+[2026-04-15 08:39:48] INFO django.server "POST /api/v1/auth/login/ HTTP/1.1" 200 823
+[2026-04-15 08:39:48] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 75
+[2026-04-15 08:39:48] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:39:48] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 75
+[2026-04-15 08:39:48] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:39:49] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 75
+[2026-04-15 08:39:55] INFO accounts.views User logged out: harsh
+[2026-04-15 08:39:55] INFO django.server "POST /api/v1/auth/logout/ HTTP/1.1" 200 65
+[2026-04-15 08:39:59] INFO accounts.serializers User logged in: admin
+[2026-04-15 08:39:59] INFO django.server "POST /api/v1/auth/login/ HTTP/1.1" 200 834
+[2026-04-15 08:39:59] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 285
+[2026-04-15 08:39:59] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:39:59] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 285
+[2026-04-15 08:39:59] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:39:59] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 285
+[2026-04-15 08:40:17] INFO accounts.views User logged out: admin
+[2026-04-15 08:40:17] INFO django.server "POST /api/v1/auth/logout/ HTTP/1.1" 200 65
+[2026-04-15 08:40:31] INFO accounts.serializers User logged in: harsh
+[2026-04-15 08:40:31] INFO django.server "POST /api/v1/auth/login/ HTTP/1.1" 200 823
+[2026-04-15 08:40:31] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 75
+[2026-04-15 08:40:31] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:40:31] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 75
+[2026-04-15 08:40:31] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:40:32] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 75
+[2026-04-15 08:41:07] INFO tasks.views Task created: 'jdk' by harsh
+[2026-04-15 08:41:07] INFO django.server "POST /api/v1/tasks/ HTTP/1.1" 201 346
+[2026-04-15 08:41:07] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:41:16] INFO accounts.views User logged out: harsh
+[2026-04-15 08:41:16] INFO django.server "POST /api/v1/auth/logout/ HTTP/1.1" 200 65
+[2026-04-15 08:41:22] INFO accounts.serializers User logged in: admin
+[2026-04-15 08:41:22] INFO django.server "POST /api/v1/auth/login/ HTTP/1.1" 200 834
+[2026-04-15 08:41:23] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 486
+[2026-04-15 08:41:23] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:41:23] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 486
+[2026-04-15 08:41:23] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:41:23] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 486
+[2026-04-15 08:42:35] INFO accounts.views User logged out: admin
+[2026-04-15 08:42:35] INFO django.server "POST /api/v1/auth/logout/ HTTP/1.1" 200 65
+[2026-04-15 08:43:44] INFO accounts.serializers User logged in: admin
+[2026-04-15 08:43:44] INFO django.server "POST /api/v1/auth/login/ HTTP/1.1" 200 834
+[2026-04-15 08:43:44] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 486
+[2026-04-15 08:43:44] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:43:44] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 486
+[2026-04-15 08:43:44] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:43:44] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 486
+[2026-04-15 08:44:52] INFO tasks.views Task created: 'Repeat Yesterday task' by admin
+[2026-04-15 08:44:52] INFO django.server "POST /api/v1/tasks/ HTTP/1.1" 201 377
+[2026-04-15 08:44:52] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:45:04] INFO accounts.views User logged out: admin
+[2026-04-15 08:45:04] INFO django.server "POST /api/v1/auth/logout/ HTTP/1.1" 200 65
+[2026-04-15 08:45:18] INFO accounts.serializers User logged in: ayush
+[2026-04-15 08:45:18] INFO django.server "POST /api/v1/auth/login/ HTTP/1.1" 200 815
+[2026-04-15 08:45:18] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 285
+[2026-04-15 08:45:18] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:45:18] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 285
+[2026-04-15 08:45:18] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:45:18] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 285
+[2026-04-15 08:47:22] INFO django.server "OPTIONS /api/v1/tasks/1/ HTTP/1.1" 200 0
+[2026-04-15 08:47:22] INFO tasks.views Task deleted: 'Meeting at 10' by ayush
+[2026-04-15 08:47:22] INFO django.server "DELETE /api/v1/tasks/1/ HTTP/1.1" 200 83
+[2026-04-15 08:47:22] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:47:28] INFO accounts.views User logged out: ayush
+[2026-04-15 08:47:28] INFO django.server "POST /api/v1/auth/logout/ HTTP/1.1" 200 65
+[2026-04-15 08:47:33] INFO accounts.serializers User logged in: admin
+[2026-04-15 08:47:33] INFO django.server "POST /api/v1/auth/login/ HTTP/1.1" 200 834
+[2026-04-15 08:47:33] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 492
+[2026-04-15 08:47:33] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:47:33] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 492
+[2026-04-15 08:47:33] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:47:33] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 492
+[2026-04-15 08:48:18] INFO django.utils.autoreload C:\Users\ayush\OneDrive\Desktop\New folder (2)\anythingai\Task\backend\tasks\serializers.py changed, reloading.
+[2026-04-15 08:48:19] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2026-04-15 08:52:16] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2026-04-15 08:52:39] INFO django.server "OPTIONS /api/v1/auth/profile/ HTTP/1.1" 200 0
+[2026-04-15 08:52:39] INFO django.server "OPTIONS /api/v1/auth/profile/ HTTP/1.1" 200 0
+[2026-04-15 08:52:39] INFO django.server "GET /api/v1/auth/profile/ HTTP/1.1" 200 247
+[2026-04-15 08:52:39] INFO django.server "GET /api/v1/auth/profile/ HTTP/1.1" 200 247
+[2026-04-15 08:52:39] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 492
+[2026-04-15 08:52:39] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:52:39] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 492
+[2026-04-15 08:52:39] INFO django.server "GET /api/v1/tasks/stats/ HTTP/1.1" 200 199
+[2026-04-15 08:52:39] INFO django.server "GET /api/v1/tasks/ HTTP/1.1" 200 492
+[2026-04-15 08:52:44] INFO django.server "OPTIONS /api/v1/auth/users/ HTTP/1.1" 200 0
+[2026-04-15 08:52:44] INFO django.server "OPTIONS /api/v1/auth/users/ HTTP/1.1" 200 0
+[2026-04-15 08:52:44] INFO django.server "GET /api/v1/auth/users/ HTTP/1.1" 200 627
+[2026-04-15 08:52:44] INFO django.server "GET /api/v1/auth/users/ HTTP/1.1" 200 627
+[2026-04-15 08:53:09] INFO accounts.views User logged out: admin
+[2026-04-15 08:53:09] INFO django.server "POST /api/v1/auth/logout/ HTTP/1.1" 200 65
