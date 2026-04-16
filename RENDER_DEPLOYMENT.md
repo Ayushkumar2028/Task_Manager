@@ -25,6 +25,8 @@ Render will now simultaneously:
 - Build and spin up `taskmanager-backend` automatically populating its Database URLs and securely routing the API. It runs database migrations via `build.sh` before booting up.
 - Compile and hook up your `taskmanager-frontend` static site, natively pulling the live backend URL into your React build and mapping React-Router overrides (`/*` -> `/index.html`) out of the box.
 
+Important: this backend currently depends on `Django 6.x`, so the backend service must use Python `3.12+`. The included `render.yaml` sets `PYTHON_VERSION` accordingly.
+
 Within 2 to 3 minutes, your unified production architecture will be 100% online and ready to accept users! 
 
 *(Note: Log in utilizing the credentials `admin` / `Admin@123` right at your shiny new Frontend URL!)*
