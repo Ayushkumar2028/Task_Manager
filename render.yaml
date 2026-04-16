@@ -1,5 +1,6 @@
 databases:
   - name: taskmanager-db
+    plan: free
     databaseName: taskmanager
     user: taskmanager
 
@@ -7,6 +8,7 @@ services:
   - type: web
     name: taskmanager-backend
     env: python
+    plan: free
     rootDir: backend
     buildCommand: "chmod +x build.sh && ./build.sh"
     startCommand: "gunicorn config.wsgi:application"

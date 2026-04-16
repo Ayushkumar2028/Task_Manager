@@ -109,22 +109,3 @@ Headers: { "Authorization": "Bearer <ACCESS_TOKEN>" }
 ```
 
 ---
-
-## 📈 Scalability
-
-To bring this application to production scale:
-
-1. **Microservices Architecture**:
-   - Split `auth` and `tasks` into individual, independent microservices
-   - Implement an API Gateway (e.g., Kong, Nginx) to route traffic.
-
-2. **Database & Caching (Redis)**:
-   - Use **PostgreSQL** in production (supported in `settings.py`).
-   - Integrate **Redis** alongside Django cache frameworks to cache API responses like the Dashboard stats or frequently accessed profile data to minimize DB lookups.
-
-3. **Message Brokers**:
-   - Use **RabbitMQ** or **Kafka** coupled with Celery for background tasks (e.g., sending emails or computing analytics).
-
-4. **Load Balancing**:
-   - Run multiple instances of the backend container orchestrated via **Kubernetes**.
-   - Use an AWS Application Load Balancer (ALB) or Nginx reverse proxy to distribute incoming requests evenly among instances.
