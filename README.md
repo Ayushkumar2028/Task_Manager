@@ -1,3 +1,4 @@
+Live Link https://taskmanager-frontend-5338.onrender.com/login
 # Full-Stack Task Manager (Django + React)
 
 A complete full-stack web application built for managing tasks with Role-Based Access Control (RBAC).
@@ -108,8 +109,4 @@ Headers: { "Authorization": "Bearer <ACCESS_TOKEN>" }
 }
 ```
 
----
-<<<<<<< HEAD
-=======
 
->>>>>>> d393aafda2c2d092044f55ce6c4d5f12b9875f54
